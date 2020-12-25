@@ -71,36 +71,18 @@ h1{
 }
 
 .home{
-    background-color: #F6F6F6;
-    padding: 33vh 1vw 35vh 1vw;
-    display: flex;
+    padding: 5vh 1vw 5vh 1vw;
 }
 
 .home .name{
     color: #34bbeb;
 }
 
-.home img{
-    max-width: 25%;
+.down{
+    width: 5vw;
     height: auto;
+    margin: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.home p{
-    color: #222222;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3vh;
-}
-.home h1{
-    color: #222222;
-    font-family: 'Roboto', sans-serif;
-    font-size: 7vh;
-}
-
-.about{
-    padding: 10vh 1vw;
 }
 
 .projects{
@@ -125,7 +107,7 @@ h1{
 
 .portrait{
     width: auto;
-    height: 40vh;
+    height: 60vh;
     margin: auto;
     display: block;
 }
