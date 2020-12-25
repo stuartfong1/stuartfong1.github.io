@@ -1,1 +1,1 @@
-This will be my personal website, I am currently building it. Stay tuned!
+This is my personal website. Go to stuartfong1.github.io to see it!
