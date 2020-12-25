@@ -1,35 +1,25 @@
 body{
     margin: 0;
 }
-nav{
-    background-color: #333333;
-    position: sticky;
-    top: 0;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-button{
-    display: none;
-}
-
-li{
-    list-style-type: none;
-    padding: 2vw 0;
-}
-
-a{
-    text-decoration: none;
-}
 
 *{
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+h1, h2, p, pre{
+    margin: 1vh 1vw;
+}
+
+.home, .projects{
+    padding: 10vh 1vw;
+}
+
+
+
+/* Navigation Bar */
 @media only screen and (max-width: 500px){
     ul{
         flex-direction: column;
@@ -38,8 +28,8 @@ a{
     button{
         display: block;
         padding: 2vw;
-        background-color: #000000;
-        color: #FFFFFF;
+        background-color: #000;
+        color: #FFF;
         font-size: 2vw;
         border: none;
         outline: none;
@@ -56,6 +46,27 @@ a{
     }
 }
 
+nav{
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 2vw 0;
+}
+
+button{
+    display: none;
+}
+
 nav a:hover{
     background-color: #000000;
 }
@@ -63,19 +74,24 @@ nav a:hover{
 .navbar-item{
     margin: 0;
     padding: 2vw;
-    color: #FFFFFF;
+    color: #fff;
 }
 
-h1{
-    margin: 0vh 1vw;
-}
 
-.home{
-    padding: 5vh 1vw 5vh 1vw;
-}
-
+/* Home */
 .home .name{
     color: #34bbeb;
+}
+
+.portrait{
+    width: auto;
+    height: 60vh;
+    margin: auto;
+    display: block;
+}
+
+pre{
+  white-space: pre-line;
 }
 
 .down{
@@ -85,9 +101,13 @@ h1{
     display: block;
 }
 
+/* Projects */
 .projects{
-    background-color: #F6F6F6;
-    padding: 10vh 1vw;
+    background-color: #f6f6f6;
+}
+
+.group{
+    margin: 0vh 0vw 3vh 0vw;
 }
 
 .row{
@@ -98,27 +118,22 @@ h1{
     flex: 50%;
     margin: 1vh 0vw;
 }
-.image{
-    width: 40vw;
-    height: auto;
-    margin: auto;
-    display: block;
-}
-
-.portrait{
-    width: auto;
-    height: 60vh;
-    margin: auto;
-    display: block;
-}
 
 .column h2{
     display: inline-block;
-    padding: 0vh 1vw;
 }
 
-.column p{
-    margin: 0vh 1vw;
+.title{
+    text-align: center;
+}
+
+hr{
+    height: 0.5vh;
+    width: 15vw;
+    margin: auto;
+    margin-bottom: 5vh;
+    display: block;
+    background-color: #000;
 }
 
 .icon{
@@ -126,7 +141,14 @@ h1{
     height: auto;
     display: inline-block;
 }
+.image{
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    display: block;
+}
 
+/* Contact */
 .contact{
     padding: 1vw;
     margin: auto;
@@ -138,5 +160,5 @@ h1{
 }
 
 .contact .icon:hover{
-    background-color:#EEEEEE;
+    background-color:#eee;
 }
