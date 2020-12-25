@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+button{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 2vw 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 500px){
+    ul{
+        flex-direction: column;
+    }
+
+    button{
+        display: block;
+        padding: 2vw;
+        background-color: #000000;
+        color: #FFFFFF;
+        font-size: 2vw;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        align-self: flex-end;
+    }
+
+    li{
+        margin: 0;
+    }
+
+    a{
+        display: block;
+    }
+}
+
+nav a:hover{
+    background-color: #000000;
+}
+
+.navbar-item{
+    margin: 0;
+    padding: 2vw;
+    color: #FFFFFF;
+}
+
+h1{
+    margin: 0vh 1vw;
+}
+
+.home{
+    background-color: #F6F6F6;
+    padding: 33vh 1vw 35vh 1vw;
+    display: flex;
+}
+
+.home .name{
+    color: #34bbeb;
+}
+
+.home img{
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home p{
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+}
+.home h1{
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7vh;
+}
+
+.about{
+    padding: 10vh 1vw;
+}
+
+.projects{
+    background-color: #F6F6F6;
+    padding: 10vh 1vw;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    margin: 1vh 0vw;
+}
+.image{
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.portrait{
+    width: auto;
+    height: 40vh;
+    margin: auto;
+    display: block;
+}
+
+.column h2{
+    display: inline-block;
+    padding: 0vh 1vw;
+}
+
+.column p{
+    margin: 0vh 1vw;
+}
+
+.icon{
+    width: 1.5vw;
+    height: auto;
+    display: inline-block;
+}
+
+.contact{
+    padding: 1vw;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.contact .icon{
+    padding: 1vw;
+}
+
+.contact .icon:hover{
+    background-color:#EEEEEE;
+}
